@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2_10 add/remove classList</title>
+</head>
+
+<body>
+    <button onclick="changeSmall()">Small</button>
+    <button onclick="changeMedium()">Middle</button>
+    <button onclick="changeBig()">Big & Crazy</button>
+
+    <div class="wrapper">
+        <div id="element" class="">
+            <h1>Hallo classList!</h1>
+        </div>
+    </div>
+    <style>
+        body {
+            font-family: 'Karla', sans-serif;
+        }
+        
+        button {
+            background-color: #035aa6;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        .wrapper {
+            max-width: 500px;
+        }
+        
+        div {
+            border-radius: 5px;
+        }
+        
+        .small {
+            font-size: 16px;
+        }
+        
+        .medium {
+            font-size: 26px;
+        }
+        
+        .big {
+            font-size: 36px;
+        }
+    </style>
+
+</body>
+<script src="main.js"></script>
+
+</html>
